@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--在menu中，如果给group设置id属性就会有分割线，不设置的话不会有。-->
+    <group
+        android:id="@+id/menu_has_icon"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_nv"
+            android:icon="@mipmap/ic_launcher"
+            android:title="NavigationView实例"/>
+        <item
+            android:id="@+id/menu_til"
+            android:icon="@mipmap/ic_launcher"
+            android:title="TextInputLayout实例"/>
+        <item
+            android:id="@+id/menu_fab"
+            android:icon="@mipmap/ic_launcher"
+            android:title="FloatingActionButton实例"/>
+        <item
+            android:id="@+id/menu_sb"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Snackbar实例"/>
+
+    </group>
+
+    <group
+        android:id="@+id/menu_not_icon"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_cl"
+            android:title="CoordinatorLayout实例"/>
+        <item
+            android:id="@+id/menu_al"
+            android:title="AppBarLayout实例"/>
+        <item
+            android:id="@+id/menu_ctl"
+            android:title="CollapsingToolbarLayout实例"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_other"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/ic_setting"
+            android:icon="@mipmap/ic_launcher"
+            android:title="设置"/>
+        <item
+            android:id="@+id/ic_search"
+            android:icon="@mipmap/ic_launcher"
+            android:title="搜索"/>
+    </group>
+</menu>
